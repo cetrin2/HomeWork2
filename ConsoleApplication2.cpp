@@ -1,6 +1,3 @@
-// ConsoleApplication2.cpp: определяет точку входа для консольного приложения.
-//
-
 //HomeWork2
 
 #include "stdafx.h"
@@ -8,15 +5,15 @@
 
 int main()
 {
-	//Объявляем переменные
+	//РћР±СЉСЏРІР»СЏРµРј РїРµСЂРµРјРµРЅРЅС‹Рµ
 	int a, b;
 
-	//Просим ввести первое число
+	//РџСЂРѕСЃРёРј РІРІРµСЃС‚Рё РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
 	printf("Enter the first number: ");
 	scanf_s("%i", &a);
 	printf("\n");
 
-	//Просим ввести второе число
+	//РџСЂРѕСЃРёРј РІРІРµСЃС‚Рё РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
 	printf("Enter the second number: ");
 	scanf_s("%i", &b);
 	printf("\n");
@@ -24,19 +21,19 @@ int main()
 
 	if (a > b)
 	{
-		//Если первое число больше
+		//Р•СЃР»Рё РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ Р±РѕР»СЊС€Рµ
 		printf("The first number is greater than the second");
 	}
 	else
 	{
 		if (a < b)
 		{
-			//Если первое число меньше
+			//Р•СЃР»Рё РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ
 			printf("The first number is less than the second");
 		}
 		else
 		{
-			//Если числа равны
+			//Р•СЃР»Рё С‡РёСЃР»Р° СЂР°РІРЅС‹
 			printf("The numbers are equal");
 		}
 	}
